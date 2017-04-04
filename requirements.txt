@@ -1,0 +1,34 @@
+attrs
+gym
+h5py
+keras
+matplotlib
+numpy
+pillow
+protobuf>=3.0
+pydot-ng
+scipy
+semver
+-e .
+
+
+module load python3
+virtualenv deeprl-hw2-gpu
+source deeprl-hw2-gpu/bin/activate
+pip install tensorflow-gpu
+pip install attrs
+pip install gym
+pip install attrs
+pip install h5py
+pip install keras
+pip install matplotlib
+pip install numpy
+pip install pillow
+pip install protobuf
+pip install pydot-ng
+pip install scipy
+pip install semver
+
+
+
+deactivate
